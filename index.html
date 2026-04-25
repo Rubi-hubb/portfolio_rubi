@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+    body { background:#0f172a; color:#fff; }
+    header { display:flex; justify-content:space-between; padding:20px 10%; align-items:center; }
+    header h1 { font-size:24px; }
+    nav a { color:#fff; margin-left:20px; text-decoration:none; }
+    .hero { display:flex; align-items:center; justify-content:space-between; padding:80px 10%; }
+    .hero-text { max-width:500px; }
+    .hero-text h2 { font-size:42px; margin-bottom:20px; }
+    .hero-text p { margin-bottom:20px; color:#cbd5f5; }
+    .hero img { width:300px; border-radius:20px; }
+    .btn { padding:10px 20px; background:#6366f1; border:none; color:#fff; border-radius:8px; cursor:pointer; }
+    section { padding:60px 10%; }
+    .projects { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+    .card { background:#1e293b; padding:20px; border-radius:15px; }
+    .card img { width:100%; border-radius:10px; margin-bottom:10px; }
+    footer { text-align:center; padding:20px; background:#020617; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MyPortfolio</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <h2>Hi, I'm a UI/UX Designer</h2>
+    <p>I design modern, user-friendly digital experiences focused on usability and aesthetics.</p>
+    <button class="btn">View Work</button>
+  </div>
+  <img src="2nd image.jpeg" alt="profile">
+</section>
+
+<section id="projects">
+  <h2>My Work</h2>
+  <div class="projects">
+    <div class="card">
+      <img src="Dashboard.jpg">
+      <h3>Project One</h3>
+      <p>UI/UX case study for mobile app design.</p>
+    </div>
+    <div class="card">
+      <img src="create invoice.jpg">
+      <h3>Project Two</h3>
+      <p>Website redesign with improved user flow.</p>
+    </div>
+    <div class="card">
+      <img src="Invoices.jpg">
+      <h3>Project Three</h3>
+      <p>Dashboard design for analytics platform.</p>
+    </div>
+  </div>
+</section>
+
+<section id="live">
+  <h2>Live Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <img src="mehta-fire-engineers.jpg">
+      <h3>Live Project One</h3>
+      <p>Click below to view the live website.</p>
+      <a href="https://www.mehtafireengg.com" target="_blank" class="btn">View Live</a>
+    </div>
+    <div class="card">
+      <img src="v-care-services-.jpg">
+      <h3>Live Project Two</h3>
+      <p>Click below to view the live website.</p>
+      <a href="https://www.v-carefinancialservices.com" target="_blank" class="btn">View Live</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: sharmarsl891@gmail.com</p>
+  <p>Contact: sharmarsl891@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Rubi-WebPortfolio</p>
+</footer>
+
+</body>
+</html>
